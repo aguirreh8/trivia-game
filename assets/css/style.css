@@ -28,7 +28,7 @@ h1 {
 }
 
 
-#startButton {
+.gameButton {
 	bottom: -200px;
 	font-size: 40px;
 	font-family: 'Arial', 'Helvetica', 'san-serif';
@@ -40,8 +40,27 @@ h1 {
 	transition: .2s;
 }
 
-#startButton:hover {
+.gameButton:hover {
 	background-color: #B6FFFFFF;	
+}
+
+#submitButton {
+	margin: 0 auto;
+	margin-top: 10px;
+	font-size: 40px;
+	font-family: 'Arial', 'Helvetica', 'san-serif';
+	text-decoration: none;
+	padding: 20px;
+	background-color: #00FFFFFF;
+	color: white;
+	width: 150px;
+	border-radius: 20px;
+	transition: .2s;
+}
+
+#submitButton:hover {
+	background-color: #B6FFFFFF;
+	cursor: pointer;	
 }
 
 .is-hidden {

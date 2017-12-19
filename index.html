@@ -15,22 +15,27 @@
 	<div class='container'>
 		<h1>Triva Game</h1>
 		<div id='startScreen'>
-			<a href='#' id='startButton'>
+			<a href='#' id='startButton' class='gameButton'>
 				Start!
 			</a>
 		</div>
-		<div id='questions' class='is-hidden'>
-			<h2>Answer all the questions as best as you can!</h2>
-			<p>Time left: <span id='timer'>00</span></p>
-			<p>Can you guess my name?</p>
-			<form action="">
-				<input type='radio' name='question' value="1">Henry
-				<input type="radio" name="question" value="2">Popo
-				<input type="radio" name='question' value="3">Lala
-				<input type="radio" name="question" value="4">Pepe
-			</form>
+		<div id='questionScreen' class='is-hidden'>
+			<div id='questions'>
+				<h2>Answer all the questions as best as you can!</h2>
+				<p>Time left: <span id='timer'>00</span></p>
+				<p>Can you guess my name?</p>
+				<form action="">
+					<input type='radio' name='question' value="1">Henry
+					<input type="radio" name="question" value="2">Popo
+					<input type="radio" name='question' value="3">Lala
+					<input type="radio" name="question" value="4">Pepe
+				</form>
+			</div>
+			<p id='submitButton'>
+				Done!
+			</p>
 		</div>
-		<div id='results' class='is-hidden'>
+		<div id='resultsScreen' class='is-hidden'>
 			<h2>Finished!</h2>
 			<p>Right answers: <span id='right'>0</span></p>
 			<p>Wrong answers: <span id='wrong'>0</span></p>
