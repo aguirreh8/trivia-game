@@ -1,0 +1,62 @@
+* {
+	box-sizing: border-box;
+	position: relative;
+}
+
+.container {
+	margin: 0 auto;
+	margin-top: 100px;
+	width: 70%;
+	background-color: #FFE97FFF;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 60px;
+	font-weight: bold;
+	font-family: 'Anton', 'Arial', 'Helvetica', 'san-serif';
+	font-style: italic;
+	text-decoration: underline;
+	color: #2599D9FF;
+	text-shadow: 5px 4px 2px rgba(152, 150, 150, 0.61);
+	padding: 20px;	
+}
+
+#startScreen {
+	height: 300px;
+}
+
+
+#startButton {
+	bottom: -200px;
+	font-size: 40px;
+	font-family: 'Arial', 'Helvetica', 'san-serif';
+	text-decoration: none;
+	padding: 20px;
+	background-color: #00FFFFFF;
+	color: white;
+	border-radius: 20px;
+	transition: .2s;
+}
+
+#startButton:hover {
+	background-color: #B6FFFFFF;	
+}
+
+.is-hidden {
+	display: none;
+}
+
+h2 {
+	font-size: 30px;
+	font-family: 'Arial', 'Helvetica', 'san-serif';
+	padding: 20px;
+	text-decoration: underline;
+}
+
+p {
+	font-size: 25px;
+	font-family: 'Arial', 'Helvetica', 'san-serif';
+	padding: 10px;
+}

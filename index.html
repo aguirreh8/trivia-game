@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trivia Game</title>
+	<link rel="stylesheet" href="assets/css/reset.css" />
+	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+	<link rel='stylesheet' href="assets/css/style.css" />
+	<script
+	  src="https://code.jquery.com/jquery-3.2.1.slim.js"
+	  integrity="sha256-tA8y0XqiwnpwmOIl3SGAcFl2RvxHjA8qp0+1uCGmRmg="
+	  crossorigin="anonymous"></script>
+	 <script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+<body>
+	<div class='container'>
+		<h1>Triva Game</h1>
+		<div id='startScreen'>
+			<a href='#' id='startButton'>
+				Start!
+			</a>
+		</div>
+		<div id='questions' class='is-hidden'>
+			<h2>Answer all the questions as best as you can!</h2>
+			<p>Time left: <span id='timer'>00</span></p>
+			<p>Can you guess my name?</p>
+			<form action="">
+				<input type='radio' name='question' value="1">Henry
+				<input type="radio" name="question" value="2">Popo
+				<input type="radio" name='question' value="3">Lala
+				<input type="radio" name="question" value="4">Pepe
+			</form>
+		</div>
+		<div id='results' class='is-hidden'>
+			<h2>Finished!</h2>
+			<p>Right answers: <span id='right'>0</span></p>
+			<p>Wrong answers: <span id='wrong'>0</span></p>
+			<p>Unanswered: <span id="unanswered">0</span></p>
+		</div>
+	</div>
+</body>
+</html>
