@@ -3,13 +3,22 @@
 	position: relative;
 }
 
+body {
+	background-image: url('../images/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 .container {
 	margin: 0 auto;
-	margin-top: 100px;
+	margin-top: 85px;
 	width: 70%;
-	background-color: #FFE97FFF;
+	background-color: #0098FFFF;
+	border-radius: 10px;
+	box-shadow: 5px 10px #303030;
 	padding: 20px;
 	text-align: center;
+	background: linear-gradient(to top left, white, #0098FFFF);
 }
 
 h1 {
@@ -18,33 +27,17 @@ h1 {
 	font-family: 'Anton', 'Arial', 'Helvetica', 'san-serif';
 	font-style: italic;
 	text-decoration: underline;
-	color: #2599D9FF;
+	color: #15E96EFF;
 	text-shadow: 5px 4px 2px rgba(152, 150, 150, 0.61);
 	padding: 20px;	
 }
 
 #startScreen {
 	height: 300px;
+	padding: 90px;
 }
-
 
 .gameButton {
-	bottom: -200px;
-	font-size: 40px;
-	font-family: 'Arial', 'Helvetica', 'san-serif';
-	text-decoration: none;
-	padding: 20px;
-	background-color: #00FFFFFF;
-	color: white;
-	border-radius: 20px;
-	transition: .2s;
-}
-
-.gameButton:hover {
-	background-color: #B6FFFFFF;	
-}
-
-#submitButton {
 	margin: 0 auto;
 	margin-top: 10px;
 	font-size: 40px;
@@ -53,15 +46,16 @@ h1 {
 	padding: 20px;
 	background-color: #00FFFFFF;
 	color: white;
-	width: 150px;
+	width: 180px;
 	border-radius: 20px;
 	transition: .2s;
 }
 
-#submitButton:hover {
+.gameButton:hover {
 	background-color: #B6FFFFFF;
 	cursor: pointer;	
 }
+
 
 .is-hidden {
 	display: none;
